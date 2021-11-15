@@ -1,0 +1,47 @@
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+	height: 100%;
+  margin-top: 16px;
+	background-color: #0a0e30;
+	color: #ffffff;
+}
+
+.dataContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 600px;
+	height: 100%;
+}
+
+.header {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.bio {
+  text-align: center;
+  color: #ffffff;
+  margin-top: 16px;
+}
+
+.contactButton {
+  cursor: pointer;
+  margin-top: 16px;
+  padding: 7px;
+  border: 0;
+  border-radius: 5px;
+  color: #0a0e30;
+}
+
+.message {
+	background-color: #0a0e30;
+}
+
+.background {
+	background-color: #0a0e30;
+	height: 100%;
+}
